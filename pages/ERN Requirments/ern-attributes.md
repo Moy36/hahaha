@@ -10,5 +10,5 @@ This page lists the attribute definitions used in the Research Notebooks project
 ## Attribute list
 
 {% for row in site.data.ERNAttributeDefinition %}
-- **{{ row.name }}**: {{ row.description }}
+- **{{ row["Name of Attributes"] }}**: {{ row["Description/expected content"] }}
 {% endfor %}
